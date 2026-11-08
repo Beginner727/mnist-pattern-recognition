@@ -4,6 +4,8 @@
 
 Đồ án giữa kỳ môn Nhận dạng mẫu: xây dựng và so sánh bốn mô hình phân loại chữ số 0–9, kèm demo nét vẽ và đánh giá trên EMNIST Digits.
 
+**Mã nguồn trên GitHub:** [Beginner727/mnist-pattern-recognition](https://github.com/Beginner727/mnist-pattern-recognition).
+
 - **Multinomial Naïve Bayes, Softmax Regression và MLP:** tự cài đặt bằng NumPy, bao gồm feedforward và backpropagation của MLP.
 - **Random Forest:** dùng `RandomForestClassifier` của scikit-learn trong `models.py`.
 - Chia dữ liệu bằng scikit-learn; tự tính các độ đo trong `metrics.py`. Có thêm mô hình thư viện làm baseline đối chiếu.
