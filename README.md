@@ -64,11 +64,6 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m mnist_project.demo
 ```
 
-Chỉ cần cài package một lần trong mỗi môi trường `.venv`; không cần đặt `PYTHONPATH`.
-Cài đặt editable dùng trực tiếp mã trong `src`, nên sửa code không cần cài lại.
-
-MNIST được tải tự động khi thiếu. EMNIST mặc định lưu **ngoài đồ án**.
-
 Git không lưu `.venv`, dữ liệu lớn hoặc mô hình. Máy mới cần cài lại môi trường và huấn luyện lại, hoặc nhận riêng bộ dữ liệu/mô hình đã lưu từ nhóm.
 
 Để đồng bộ kết quả hiển thị, **Run All rồi Save** các notebook; giữ `RUN_EXPERIMENT=False` nếu đã huấn luyện bằng lệnh trên. Có thể chạy và lưu notebook chính bằng:
