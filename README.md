@@ -67,15 +67,7 @@ python -m venv .venv
 Chỉ cần cài package một lần trong mỗi môi trường `.venv`; không cần đặt `PYTHONPATH`.
 Cài đặt editable dùng trực tiếp mã trong `src`, nên sửa code không cần cài lại.
 
-MNIST được tải tự động khi thiếu. EMNIST mặc định lưu **ngoài đồ án**, tại
-`%LOCALAPPDATA%/mnist-midterm/emnist` trên Windows. Lần đầu tải ZIP khoảng 536 MiB;
-những lần sau dùng lại hai file test `.gz` (~10 MB), có thể bỏ `--download`.
-Có thể xóa ZIP sau khi trích xuất, giữ hai file `.gz` để chạy lại offline.
-Dùng `--data-dir "D:/Datasets/EMNIST"` nếu muốn chọn thư mục khác.
-Nếu tải thủ công, đặt `gzip.zip` chính thức vào thư mục đó và truyền `--data-dir`.
-Khi Python gặp lỗi chứng chỉ HTTPS, code thử lại bằng `curl` (vẫn xác thực TLS);
-không tắt kiểm tra chứng chỉ. ZIP hỏng có thể tải lại bằng `--download`.
-EMNIST và Demo cần `result/full/models.pkl`.
+MNIST được tải tự động khi thiếu. EMNIST mặc định lưu **ngoài đồ án**.
 
 Git không lưu `.venv`, dữ liệu lớn hoặc mô hình. Máy mới cần cài lại môi trường và huấn luyện lại, hoặc nhận riêng bộ dữ liệu/mô hình đã lưu từ nhóm.
 
