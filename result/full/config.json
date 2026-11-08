@@ -1,0 +1,66 @@
+{
+  "mode": "full",
+  "seed": 42,
+  "epochs_lr": 100,
+  "epochs_mlp": 100,
+  "early_stopping": true,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "restore_best_weights": true,
+  "hidden": [
+    128,
+    64
+  ],
+  "mlp_lr": 0.7,
+  "nb_alpha_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "mlp_hidden_1_grid": [
+    64,
+    128,
+    256
+  ],
+  "selection_metric": "validation_f1_macro",
+  "trees": 40,
+  "nb_alpha": 0.1,
+  "max_features": 28,
+  "split_implementation": "sklearn.model_selection.train_test_split",
+  "forest_n_jobs": -1,
+  "forest_implementation": "sklearn.ensemble.RandomForestClassifier",
+  "depth": 14,
+  "n": {
+    "train": 54000,
+    "validation": 6000,
+    "test": 10000
+  },
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "numpy": "2.5.4",
+  "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "chosen_lr": 0.5,
+  "learning_rate_grid": [
+    0.05,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "training_summary": {
+    "Softmax LR": {
+      "epochs_run": 38,
+      "best_epoch": 28,
+      "best_val_loss": 0.2907213270664215,
+      "stopped_epoch": 38
+    },
+    "MLP": {
+      "epochs_run": 31,
+      "best_epoch": 21,
+      "best_val_loss": 0.09099447727203369,
+      "stopped_epoch": 31
+    }
+  }
+}

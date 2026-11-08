@@ -1,0 +1,16 @@
+{
+  "evaluated_at_utc": "2026-11-07T13:48:23.349949+00:00",
+  "source_url": "https://biometrics.nist.gov/cs_links/EMNIST/gzip.zip",
+  "split": "digits/test",
+  "model_sha256": "d58561d2a840757b98bbfb484e9c6d2eb946242446455e3fe8a9e9c2ee0806da",
+  "mnist_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "input_sha256": {
+    "emnist-digits-test-images-idx3-ubyte.gz": "20ebe43509264f7639d37c835a3f0b009e90b29e00a099a03101abe1644a3f63",
+    "emnist-digits-test-labels-idx1-ubyte.gz": "bad1834c45d5988e270b99d43b13edc3fd898f658ffbc2caf2846ef27f7b05b0"
+  },
+  "preprocessing": "IDX transpose(0,2,1); float32 / 255; flatten 784",
+  "training": false,
+  "hyperparameter_selection": false,
+  "comparison": "Both test sets re-evaluated using the same frozen models.pkl",
+  "limitation": "Shared NIST origin; source-sample/writer overlap not verified"
+}

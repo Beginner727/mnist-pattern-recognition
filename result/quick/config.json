@@ -1,0 +1,73 @@
+{
+  "mode": "quick",
+  "seed": 42,
+  "epochs_lr": 100,
+  "epochs_mlp": 100,
+  "early_stopping": true,
+  "patience": 10,
+  "min_delta": 0.0001,
+  "restore_best_weights": true,
+  "hidden": [
+    256,
+    64
+  ],
+  "mlp_lr": 0.7,
+  "nb_alpha_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "mlp_hidden_1_grid": [
+    64,
+    128,
+    256
+  ],
+  "selection_metric": "validation_f1_macro",
+  "trees": 5,
+  "nb_alpha": 0.1,
+  "max_features": 28,
+  "split_implementation": "sklearn.model_selection.train_test_split",
+  "forest_n_jobs": -1,
+  "forest_implementation": "sklearn.ensemble.RandomForestClassifier",
+  "depth": 8,
+  "n": {
+    "train": 8000,
+    "validation": 1500,
+    "test": 2000
+  },
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "numpy": "2.5.4",
+  "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "chosen_lr": 0.05,
+  "learning_rate_grid": [
+    0.05,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "training_summary": {
+    "Softmax LR": {
+      "epochs_run": 100,
+      "best_epoch": 100,
+      "best_val_loss": 0.3180244565010071,
+      "stopped_epoch": 0
+    },
+    "MLP": {
+      "epochs_run": 23,
+      "best_epoch": 13,
+      "best_val_loss": 0.13137024641036987,
+      "stopped_epoch": 23
+    }
+  },
+  "run_id": "mnist-refresh-20261107T014317Z",
+  "refreshed_at_utc": "2026-11-07T01:43:17.739042+00:00",
+  "execution_threads": {
+    "OPENBLAS_NUM_THREADS": 2,
+    "OMP_NUM_THREADS": 2
+  },
+  "completed_at": "2026-11-07T01:43:17.739042+00:00"
+}

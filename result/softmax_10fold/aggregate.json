@@ -1,0 +1,7 @@
+{
+  "heldout_accuracy_mean": 0.9216833333333334,
+  "heldout_accuracy_std": 0.0032350797116517415,
+  "heldout_f1_macro_mean": 0.9206105196841543,
+  "test_vote_ties": 29,
+  "fit_seconds_total": 73.65243220000411
+}

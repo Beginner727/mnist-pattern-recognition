@@ -1,0 +1,28 @@
+.venv/
+.vendor/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+tmp/
+.chart-data-*/
+.codex-finalizer/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+~$*
+*.tmp
+*.zip
+# Dữ liệu và mô hình lớn được lưu cục bộ, không đưa vào Git.
+data/raw/*.npz
+data/processed/*.npz
+result/**/*.pkl
+result/**/*.npz
+result/**/*.log
+# Giữ CSV, JSON, notebook, hình và báo cáo để kiểm tra kết quả.
+
+# EMNIST archive and extracted IDX inputs.
+data/raw/emnist/

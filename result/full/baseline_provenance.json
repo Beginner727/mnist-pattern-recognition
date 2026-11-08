@@ -1,0 +1,18 @@
+{
+  "reused": [],
+  "new": [
+    "MultinomialNB",
+    "Softmax LR",
+    "MLP",
+    "Random Forest"
+  ],
+  "source": "result/full/baseline.csv",
+  "note": "baseline.csv changed since the previous manifest. Exact completion time and historical warnings for this CSV were not recorded; do not attribute the previous run metadata to it.",
+  "previous_run_id": "mnist-refresh-20261107T014317Z",
+  "previous_completed_at_utc": "2026-11-07T01:43:17.739042+00:00",
+  "completed_at_utc": null,
+  "previous_warnings": [
+    "D:\\NDK\\PatternRecognition\\DoAnGiuaKy\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 200 iteration(s) (status=1):"
+  ],
+  "baseline_sha256": "109fa878b4bd329bf113b8ebda335c0935bd4e8bc91c185475442bced0896279"
+}
